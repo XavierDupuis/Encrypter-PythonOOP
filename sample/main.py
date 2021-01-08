@@ -16,8 +16,6 @@ def testEncryption(method, message):
 if __name__ == "__main__":
     message = message.Message("Xavier")
     testEncryption(caesar, message)
-    testEncryption(caesar, message)
-    testEncryption(caesar, message)
     testEncryption(vigenere, message)
     input("\nEND\n")
 
