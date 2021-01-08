@@ -1,7 +1,5 @@
 class Encryption:
 
-
-    # constructeur de la classe
     def __init__(self, nom, prenom):
         print("Encryption CONSTRUCTEUR")
 
